@@ -1,0 +1,3 @@
+hu\lamsoft\books\persistence\book\dao\BookDao.class
+hu\lamsoft\books\persistence\book\entity\Book.class
+hu\lamsoft\books\persistence\PersistenceConfiguration.class

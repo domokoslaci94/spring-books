@@ -1,0 +1,5 @@
+hu\lamsoft\books\service\book\BookService.class
+hu\lamsoft\books\service\book\impl\BookServiceImpl.class
+hu\lamsoft\books\service\book\impl\converter\BookToBookVOConverter.class
+hu\lamsoft\books\service\book\impl\vo\BookVO.class
+hu\lamsoft\books\service\ServiceConfiguration.class
