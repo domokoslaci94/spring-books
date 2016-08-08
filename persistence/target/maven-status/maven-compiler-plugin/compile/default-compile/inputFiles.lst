@@ -1,3 +1,7 @@
-C:\Users\ui2016\Dokumentumok\books\persistence\src\main\java\hu\lamsoft\books\persistence\book\entity\Book.java
-C:\Users\ui2016\Dokumentumok\books\persistence\src\main\java\hu\lamsoft\books\persistence\PersistenceConfiguration.java
-C:\Users\ui2016\Dokumentumok\books\persistence\src\main\java\hu\lamsoft\books\persistence\book\dao\BookDao.java
+C:\Users\ui2016\Dokumentumok\spring-books\persistence\src\main\java\hu\lamsoft\books\persistence\user\entity\User.java
+C:\Users\ui2016\Dokumentumok\spring-books\persistence\src\main\java\hu\lamsoft\books\persistence\book\dao\BookDao.java
+C:\Users\ui2016\Dokumentumok\spring-books\persistence\src\main\java\hu\lamsoft\books\persistence\order\dao\OrderDao.java
+C:\Users\ui2016\Dokumentumok\spring-books\persistence\src\main\java\hu\lamsoft\books\persistence\order\entity\Order.java
+C:\Users\ui2016\Dokumentumok\spring-books\persistence\src\main\java\hu\lamsoft\books\persistence\book\entity\Book.java
+C:\Users\ui2016\Dokumentumok\spring-books\persistence\src\main\java\hu\lamsoft\books\persistence\user\dao\UserDao.java
+C:\Users\ui2016\Dokumentumok\spring-books\persistence\src\main\java\hu\lamsoft\books\persistence\PersistenceConfiguration.java

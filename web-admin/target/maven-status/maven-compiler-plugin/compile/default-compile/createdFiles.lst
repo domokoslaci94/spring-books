@@ -1,3 +1,4 @@
 hu\lamsoft\books\webadmin\book\controller\BookAdminController.class
 hu\lamsoft\books\Application.class
+hu\lamsoft\books\webadmin\user\controller\UserAdminController.class
 hu\lamsoft\books\webadmin\book\controller\WebSecurityConfig.class

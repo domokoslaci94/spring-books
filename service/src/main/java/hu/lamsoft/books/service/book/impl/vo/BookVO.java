@@ -2,6 +2,8 @@ package hu.lamsoft.books.service.book.impl.vo;
 
 import org.hibernate.validator.constraints.Range;
 
+import java.util.Date;
+
 public class BookVO {
 
   private Integer id;
@@ -9,6 +11,24 @@ public class BookVO {
   private String title;
   @Range(min = 1, message = "Price can not be negative or zero.")
   private Integer price;
+  private Date createdDate;
+  private Date updatedDate;
+
+  public Date getCreatedDate() {
+    return createdDate;
+  }
+
+  public void setCreatedDate(Date createdDate) {
+    this.createdDate = createdDate;
+  }
+
+  public Date getUpdatedDate() {
+    return updatedDate;
+  }
+
+  public void setUpdatedDate(Date updatedDate) {
+    this.updatedDate = updatedDate;
+  }
 
   public Integer getId() {
     return id;

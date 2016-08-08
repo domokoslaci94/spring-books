@@ -1,5 +1,13 @@
 hu\lamsoft\books\service\book\BookService.class
+hu\lamsoft\books\service\order\OrderService.class
+hu\lamsoft\books\service\user\impl\vo\UserVO.class
+hu\lamsoft\books\service\user\impl\UserServiceImpl.class
+hu\lamsoft\books\service\order\impl\vo\OrderVO.class
+hu\lamsoft\books\service\user\UserService.class
 hu\lamsoft\books\service\book\impl\BookServiceImpl.class
 hu\lamsoft\books\service\book\impl\converter\BookToBookVOConverter.class
 hu\lamsoft\books\service\book\impl\vo\BookVO.class
+hu\lamsoft\books\service\order\impl\converter\OrderToOrderVOConverter.class
+hu\lamsoft\books\service\order\impl\OrderServiceImpl.class
+hu\lamsoft\books\service\user\impl\converter\UserToUserVOConverter.class
 hu\lamsoft\books\service\ServiceConfiguration.class

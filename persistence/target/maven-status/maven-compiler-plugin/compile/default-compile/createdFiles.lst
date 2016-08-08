@@ -1,3 +1,7 @@
 hu\lamsoft\books\persistence\book\dao\BookDao.class
-hu\lamsoft\books\persistence\book\entity\Book.class
+hu\lamsoft\books\persistence\user\dao\UserDao.class
 hu\lamsoft\books\persistence\PersistenceConfiguration.class
+hu\lamsoft\books\persistence\order\dao\OrderDao.class
+hu\lamsoft\books\persistence\order\entity\Order.class
+hu\lamsoft\books\persistence\book\entity\Book.class
+hu\lamsoft\books\persistence\user\entity\User.class

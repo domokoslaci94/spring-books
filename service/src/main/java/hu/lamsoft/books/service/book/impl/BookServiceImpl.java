@@ -23,7 +23,8 @@ public class BookServiceImpl implements BookService {
   private BookToBookVOConverter converter;
 
   @Override
-  public List<BookVO> getBooks(Integer page, Integer pageSize) {
+  public List<BookVO> getBooks(Integer page,
+                               Integer pageSize) {
     Page<Book> bookPage = bookDao.findAll(new PageRequest(page, pageSize));
     List<BookVO> ret = new ArrayList<>(bookPage.getSize());
 

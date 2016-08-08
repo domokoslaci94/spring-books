@@ -27,7 +27,7 @@ public class BookController {
 
   @RequestMapping("/books")
   public List<BookVO> getBooks(@RequestParam(value = "page", defaultValue = "0") Integer page,
-                               @RequestParam(value = "page", defaultValue = "10") Integer pageSize) {
+                               @RequestParam(value = "page_size", defaultValue = "10") Integer pageSize) {
     return bookService.getBooks(page, pageSize);
   }
 
