@@ -46,7 +46,7 @@ public class OrderServiceImpl implements OrderService {
     book.setTitle(orderVO.getBookVO().getTitle());
     book.setPrice(orderVO.getBookVO().getPrice());
 
-//    result.setBook(book);
+    result.setBook(book);
 
     orderDao.save(result);
   }

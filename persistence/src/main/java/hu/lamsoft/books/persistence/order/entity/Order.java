@@ -12,6 +12,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
+import hu.lamsoft.books.persistence.book.entity.Book;
 import hu.lamsoft.books.persistence.user.entity.User;
 
 @Entity
@@ -25,9 +26,9 @@ public class Order {
   @OneToOne(fetch = FetchType.LAZY)
   @JoinColumn(name = "USER_ID")
   private User user;
-//  @OneToOne(fetch = FetchType.LAZY)
-//  @JoinColumn(name = "BOOK_ID")
-//  private Book book;
+  @OneToOne(fetch = FetchType.LAZY)
+  @JoinColumn(name = "BOOK_ID")
+  private Book book;
   @CreatedDate
   private LocalDate createdDate;
   private LocalDate returnedDate;
@@ -48,13 +49,13 @@ public class Order {
     this.user = user;
   }
 
-//  public Book getBook() {
-//    return book;
-//  }
-//
-//  public void setBook(Book book) {
-//    this.book = book;
-//  }
+  public Book getBook() {
+    return book;
+  }
+
+  public void setBook(Book book) {
+    this.book = book;
+  }
 
   public LocalDate getCreatedDate() {
     return createdDate;

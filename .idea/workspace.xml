@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46e9fe65-b588-4d70-89c1-e7d3c60e7fe4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistence/target/classes/hu/lamsoft/books/persistence/book/entity/Book.class" afterPath="$PROJECT_DIR$/persistence/target/classes/hu/lamsoft/books/persistence/book/entity/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistence/target/persistence-0.1.jar" afterPath="$PROJECT_DIR$/persistence/target/persistence-0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/classes/hu/lamsoft/books/service/book/impl/BookServiceImpl.class" afterPath="$PROJECT_DIR$/service/target/classes/hu/lamsoft/books/service/book/impl/BookServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/classes/hu/lamsoft/books/service/book/impl/converter/BookToBookVOConverter.class" afterPath="$PROJECT_DIR$/service/target/classes/hu/lamsoft/books/service/book/impl/converter/BookToBookVOConverter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/classes/hu/lamsoft/books/service/book/impl/vo/BookVO.class" afterPath="$PROJECT_DIR$/service/target/classes/hu/lamsoft/books/service/book/impl/vo/BookVO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/service-0.1.jar" afterPath="$PROJECT_DIR$/service/target/service-0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-admin/target/classes/hu/lamsoft/books/webadmin/book/controller/BookAdminController.class" afterPath="$PROJECT_DIR$/web-admin/target/classes/hu/lamsoft/books/webadmin/book/controller/BookAdminController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-admin/target/web-admin-0.1.war" afterPath="$PROJECT_DIR$/web-admin/target/web-admin-0.1.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-admin/target/web-admin-0.1.war.original" afterPath="$PROJECT_DIR$/web-admin/target/web-admin-0.1.war.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-admin/target/web-admin-0.1/WEB-INF/classes/hu/lamsoft/books/webadmin/book/controller/BookAdminController.class" afterPath="$PROJECT_DIR$/web-admin/target/web-admin-0.1/WEB-INF/classes/hu/lamsoft/books/webadmin/book/controller/BookAdminController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-admin/target/web-admin-0.1/WEB-INF/lib/persistence-0.1.jar" afterPath="$PROJECT_DIR$/web-admin/target/web-admin-0.1/WEB-INF/lib/persistence-0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-admin/target/web-admin-0.1/WEB-INF/lib/service-0.1.jar" afterPath="$PROJECT_DIR$/web-admin/target/web-admin-0.1/WEB-INF/lib/service-0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-api/target/classes/hu/lamsoft/books/webapi/book/controller/BookController.class" afterPath="$PROJECT_DIR$/web-api/target/classes/hu/lamsoft/books/webapi/book/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-api/target/web-api-0.1.war" afterPath="$PROJECT_DIR$/web-api/target/web-api-0.1.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-api/target/web-api-0.1.war.original" afterPath="$PROJECT_DIR$/web-api/target/web-api-0.1.war.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-api/target/web-api-0.1/WEB-INF/classes/hu/lamsoft/books/webapi/book/controller/BookController.class" afterPath="$PROJECT_DIR$/web-api/target/web-api-0.1/WEB-INF/classes/hu/lamsoft/books/webapi/book/controller/BookController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-api/target/web-api-0.1/WEB-INF/lib/persistence-0.1.jar" afterPath="$PROJECT_DIR$/web-api/target/web-api-0.1/WEB-INF/lib/persistence-0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-api/target/web-api-0.1/WEB-INF/lib/service-0.1.jar" afterPath="$PROJECT_DIR$/web-api/target/web-api-0.1/WEB-INF/lib/service-0.1.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistence/src/main/java/hu/lamsoft/books/persistence/order/entity/Order.java" afterPath="$PROJECT_DIR$/persistence/src/main/java/hu/lamsoft/books/persistence/order/entity/Order.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistence/src/main/java/hu/lamsoft/books/persistence/user/entity/User.java" afterPath="$PROJECT_DIR$/persistence/src/main/java/hu/lamsoft/books/persistence/user/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistence/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/persistence/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/persistence/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/book/BookService.java" afterPath="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/book/BookService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/book/impl/BookServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/book/impl/BookServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/book/impl/converter/BookToBookVOConverter.java" afterPath="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/book/impl/converter/BookToBookVOConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/book/impl/vo/BookVO.java" afterPath="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/book/impl/vo/BookVO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-admin/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/web-admin/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-admin/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/web-admin/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/web-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/web-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-admin/target/web-admin-0.1/WEB-INF/classes/application.properties" afterPath="$PROJECT_DIR$/web-admin/target/web-admin-0.1/WEB-INF/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-api/src/main/java/hu/lamsoft/books/webapi/book/controller/BookController.java" afterPath="$PROJECT_DIR$/web-api/src/main/java/hu/lamsoft/books/webapi/book/controller/BookController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/web-api/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/web-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/order/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/order/impl/OrderServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/order/impl/converter/OrderToOrderVOConverter.java" afterPath="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/order/impl/converter/OrderToOrderVOConverter.java" />
     </list>
     <ignored path="books.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,13 +29,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Order.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/persistence/src/main/java/hu/lamsoft/books/persistence/order/entity/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="320">
+              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +48,8 @@
       <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/order/impl/OrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="27" />
+            <state relative-caret-position="252">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderToOrderVOConverter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OrderToOrderVOConverter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/order/impl/converter/OrderToOrderVOConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -159,10 +127,10 @@
         <option value="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/user/impl/converter/UserToUserVOConverter.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/book/impl/vo/BookVO.java" />
         <option value="$PROJECT_DIR$/persistence/src/main/java/hu/lamsoft/books/persistence/user/entity/User.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/order/impl/converter/OrderToOrderVOConverter.java" />
         <option value="$PROJECT_DIR$/web-admin/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/order/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/persistence/src/main/java/hu/lamsoft/books/persistence/order/entity/Order.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/order/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/order/impl/converter/OrderToOrderVOConverter.java" />
       </list>
     </option>
   </component>
@@ -1576,7 +1544,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1010" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="1010" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1969,10 +1937,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/persistence/src/main/java/hu/lamsoft/books/persistence/order/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/hu/lamsoft/books/service/order/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="27" />
+        <state relative-caret-position="252">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1992,16 +1974,6 @@
         <state relative-caret-position="340">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persistence/src/main/java/hu/lamsoft/books/persistence/order/entity/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
