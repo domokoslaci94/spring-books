@@ -16,10 +16,10 @@ import hu.lamsoft.books.service.user.impl.vo.UserVO;
 @Service
 public class UserServiceImpl implements UserService {
   @Autowired
-  UserDao userDao;
+  private UserDao userDao;
 
   @Autowired
-  UserToUserVOConverter userToUserVOConverter;
+  private UserToUserVOConverter userToUserVOConverter;
 
   @Override
   public List<UserVO> getUsers(Integer page, Integer pageSize) {
@@ -40,7 +40,6 @@ public class UserServiceImpl implements UserService {
     user.setName(userVO.getName());
     user.setLoginName(userVO.getLoginName());
     user.setLoginPassword(userVO.getLoginPassword());
-    user.setRegistrationDate(userVO.getRegistrationDate());
     userDao.save(user);
   }
 }

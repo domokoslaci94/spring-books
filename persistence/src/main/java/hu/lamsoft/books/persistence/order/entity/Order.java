@@ -12,12 +12,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
+import javax.persistence.Table;
 import hu.lamsoft.books.persistence.book.entity.Book;
 import hu.lamsoft.books.persistence.user.entity.User;
 
 @Entity
 @EntityListeners(AuditingEntityListener.class)
 
+@Table(name = "ORDERS")
 public class Order {
 
   @Id

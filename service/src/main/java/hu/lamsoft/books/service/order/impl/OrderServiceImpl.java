@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import hu.lamsoft.books.persistence.book.entity.Book;
+import hu.lamsoft.books.persistence.book.dao.BookDao;
 import hu.lamsoft.books.persistence.order.dao.OrderDao;
 import hu.lamsoft.books.persistence.order.entity.Order;
-import hu.lamsoft.books.persistence.user.entity.User;
+import hu.lamsoft.books.persistence.user.dao.UserDao;
 import hu.lamsoft.books.service.order.OrderService;
 import hu.lamsoft.books.service.order.impl.converter.OrderToOrderVOConverter;
 import hu.lamsoft.books.service.order.impl.vo.OrderVO;
@@ -20,34 +20,24 @@ import hu.lamsoft.books.service.order.impl.vo.OrderVO;
 public class OrderServiceImpl implements OrderService {
 
   @Autowired
-  OrderDao orderDao;
+  private OrderDao orderDao;
 
   @Autowired
-  OrderToOrderVOConverter orderToOrderVOConverter;
+  private BookDao bookDao;
+
+  @Autowired
+  private UserDao userDao;
+
+  @Autowired
+  private OrderToOrderVOConverter orderToOrderVOConverter;
 
   @Override
   public void createOrder(OrderVO orderVO) {
     Order result = new Order();
     result.setId(orderVO.getId());
-    result.setCreatedDate(orderVO.getCreatedDate());
     result.setReturnedDate(orderVO.getReturnedDate());
-
-    User user = new User();
-    user.setId(orderVO.getUser().getId());
-    user.setName(orderVO.getUser().getName());
-    user.setLoginName(orderVO.getUser().getLoginName());
-    user.setRegistrationDate(orderVO.getUser().getRegistrationDate());
-
-    result.setUser(user);
-
-    Book book = new Book();
-    book.setId(orderVO.getBookVO().getId());
-    book.setAuthor(orderVO.getBookVO().getAuthor());
-    book.setTitle(orderVO.getBookVO().getTitle());
-    book.setPrice(orderVO.getBookVO().getPrice());
-
-    result.setBook(book);
-
+    result.setUser(userDao.findOne(orderVO.getUser().getId()));
+    result.setBook(bookDao.findOne(orderVO.getBookVO().getId()));
     orderDao.save(result);
   }
 
