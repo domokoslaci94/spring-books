@@ -19,11 +19,11 @@ public class OrderVO {
     this.id = id;
   }
 
-  public UserVO getUser() {
+  public UserVO getUserVO() {
     return userVO;
   }
 
-  public void setUser(UserVO user) {
+  public void setUserVO(UserVO user) {
     this.userVO = user;
   }
 

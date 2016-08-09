@@ -36,7 +36,7 @@
 			<tr>
 				<td>Password :</td>
 				<td><form:input path="loginPassword" type="password" /></td>
-				<td><form:errors path="price" cssClass="error" /></td>
+				<td><form:errors path="loginPassword" cssClass="error" /></td>
 			</tr>
 			<tr>
 				<td colspan="3"><input type="submit" /></td>

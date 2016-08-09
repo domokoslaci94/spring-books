@@ -36,16 +36,16 @@ public class OrderServiceImpl implements OrderService {
     Order result = new Order();
     result.setId(orderVO.getId());
     result.setReturnedDate(orderVO.getReturnedDate());
-    result.setUser(userDao.findOne(orderVO.getUser().getId()));
+    result.setUser(userDao.findOne(orderVO.getUserVO().getId()));
     result.setBook(bookDao.findOne(orderVO.getBookVO().getId()));
     orderDao.save(result);
   }
 
   @Override
   public void returnOrder(Integer id) {
-    OrderVO orderVO = getOrder(id);
-    orderVO.setReturnedDate(LocalDate.now());
-    createOrder(orderVO);
+    Order order = orderDao.findOne(id);
+    order.setReturnedDate(LocalDate.now());
+    orderDao.save(order);
   }
 
   @Override

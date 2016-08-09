@@ -21,9 +21,11 @@ public class UserAdminController {
   @RequestMapping(value = "/create", method = RequestMethod.POST)
   public String createUser(@Valid UserVO userVO, BindingResult bindingResult, Model model) {
     if (bindingResult.hasErrors()) {
+      model.addAttribute("user", new UserVO());
       model.addAttribute("message", "Failed operation.");
     } else {
       userService.createUser(userVO);
+      model.addAttribute("user", userVO);
       model.addAttribute("message", "Success operation.");
     }
     return "user";

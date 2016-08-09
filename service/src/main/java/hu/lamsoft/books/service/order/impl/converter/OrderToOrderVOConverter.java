@@ -23,7 +23,7 @@ public class OrderToOrderVOConverter implements Converter<Order, OrderVO> {
     result.setId(order.getId());
     result.setReturnedDate(order.getReturnedDate());
     result.setCreatedDate(order.getCreatedDate());
-    result.setUser(userToUserVOConverter.convert(order.getUser()));
+    result.setUserVO(userToUserVOConverter.convert(order.getUser()));
     result.setBookVO(bookToBookVOConverter.convert(order.getBook()));
 
     return result;
